@@ -20,3 +20,10 @@ print(anak)
 
 print('\nSapa anak ke 2')
 print(f'Hai {anak[1]}!')
+
+
+print('\nSapa semua anak')
+for a in anak:
+    print(f'Hai {a}')
+
+print(f'Hai {anak[1]}!')
