@@ -13,3 +13,9 @@ if ingin_cepat:
 else:
     print('Jalan memutar')
 
+#PERULANGAN
+
+jumlah_bola = 4
+
+for index_bola in range(1, jumlah_bola+1):
+    print(f'Hallo bola #{index_bola}')
